@@ -10,4 +10,6 @@ We recommend that all devices that connect to AWS IoT have an entry in the regis
 
 You can create rules that define one or more actions to perform based on the data in a message\. For example, you can insert, update, or query a DynamoDB table or invoke a Lambda function\. Rules use expressions to filter messages\. When a rule matches a message, the rules engine triggers the action using the selected properties\. Rules also contain an IAM role that grants AWS IoT permission to the AWS resources used to perform the action\.
 
+AWS IoT Core enables you to connect IoT devices to other IoT devices and to other AWS services. It is composed of six main components: authorization and authentication, device gateway, message broker, rules engine, device shadow, and the registry.
+
 ![\[A high-level view of AWS IoT\]](http://docs.aws.amazon.com/iot/latest/developerguide/images/aws_iot_data_services.png)
